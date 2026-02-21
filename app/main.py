@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from models import UserCreate, ProductCreate
-from database import users_collection, products_collection
+from app.models import UserCreate, ProductCreate
+from app.database import users_collection, products_collection
 from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
 
